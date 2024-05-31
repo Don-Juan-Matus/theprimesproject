@@ -57,7 +57,7 @@ for g in range(len(origin)):
                 if m>0 and m<h[limit] and hook1==0:
                     SUre= np.append(SUre,m)
                     hook1+=1
-                    if m not in SUre and hook!=0:
+                    if m not in SUre and hook1!=0:
                       SUre= np.append(SUre,m)
                       #SUre=np.unique(SUre)
         print("SU array:" ,SUre)        
